@@ -2,6 +2,7 @@ import App from "./App";
 
 import Lifecycle from "./pages/Lifecycle";
 import Lifecycleclass from "./pages/Lifecycleclass";
+import Validation from "./pages/Validation";
 
 const RouteArray=[
     {
@@ -15,6 +16,11 @@ const RouteArray=[
         {
           path: "lifecycleclass",
           element: <Lifecycleclass/>,
+        },
+
+        {
+          path: "validate",
+          element: <Validation/>,
         },
        
         
