@@ -31,7 +31,7 @@ const Validation = () => {
 <form onSubmit={handleSubmit(onSubmit)}>
   <div className="mb-3">
     <input type="text"  {...register("firstName")} className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
-    <p>{errors.firstName?.message}</p>
+    <p style={{color:"red"}}>{errors.firstName?.message}</p>
 
   </div>
   <div className="mb-3">
